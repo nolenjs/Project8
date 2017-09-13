@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inputs</title>
+    <style>
+        .bottomMargin
+        {
+            margin-bottom: 15px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <form method="post">
+        <div class="bottomMargin">
+        <label for="firstName">First Name: </label><input name="firstName" id="firstName">
+        </div>
+        <div class="bottomMargin">
+        <label for="lastName">Last Name: </label><input name="lastName" id="lastName">
+        </div>
+        <div class="bottomMargin">
+            <label for="email">Email: </label><input type="email" name="email" id="email">
+        </div>
+        <div class="bottomMargin">
+            <label for="password">Password: </label><input type="password" name="password" id="password">
+        </div>
+        <div class="bottomMargin">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+<form action="myform.php" method="post">
+    <div>
+        <div><span>What is your quest?</span></div>
+        <div><input type="radio" name="quest" value-="Holy Grail"><span>Holy Grail</span></div>
+        <div><input type="radio" name="quest" value="Complete Lab 2"><span>Complete Lab 2</span></div>
+        <div><input type="radio" name="quest" value="Buckets"><span>Buckets</span></div>
+    </div>
+    <div>
+        <div>What do you hate about life?</div>
+        <div><input type="checkbox" value="school" default><span>School</span></div>
+        <div><input type="checkbox" value-="=legos"><span>Stepping on LEGOs</span></div>
+        <div><input type="checkbox" value-="baseball"><span>Baseball</span></div>
+        <div><input type="checkbox" value="datingLife" disabled><span>Dating Life (if you have one)</span></div>
+        <div><input type="checkbox" value="notSleeping"><span>Not Sleeping</span></div>
+    </div>
+    <div>
+        <div><span>What's yo name?</span></div>
+        <div><input name="shubes" required placeholder="Nickname"></div>
+        <div><input type="email" name="email"required placeholder="Password"></div>
+        <div><input type="url" name="url" pattern="https?://.+" required></div>
+    </div>
+    <div class="rowcolum">
+        <div class="row">
+            <span>khabsibkbkb</span>
+        </div>
+        <div class="row">
+            <span>kbkhsucbeuibkhunhkdsjbcu</span>
+        </div>
+        <div class="row">
+            <span>jdbiediueihdyfejyd6biuegs</span>
+        </div>
+    </div>
+</form>
+</body>
+</html>
